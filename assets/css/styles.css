@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+.usuarios {
+  background-color: #FFF;
+  flex: 1 1 0;
+}
+.chat {
+  background-color: #E8EBE4;
+  flex: 4 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chat img {
+  width: 200px;
+  border-radius: 5%;
+}
+.chat p {
+  flex: initial;
+  max-width: 300px;
+  text-align: center;
+}
+.main-card {
+  display: flex;
+  gap: 1rem;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  border-bottom: slategray solid 1px;
+}
+.main-card img {
+  max-width: 40px;
+  border-radius: 50%;
+  flex-grow: 1;
+}
+.main-cardname {
+  flex: 1 1 0;
+  font-size: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+h2 {
+    margin: 0%;
+    font-size: 13px;
+    
+
+}
+p {
+  margin: 0%;
+  font-size: 12px;
+  padding-top: 2px;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+.nuevochat {
+  background-color: #A491D2;
+  color: #FFF;
+  width: 60%;
+  height: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 30px auto;
+  padding: 7px;
+}
+.divnuevochat {
+  border-bottom: slategray solid 1px;
+}
+h2,h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif
+}
+.color-oldsilver {
+    color: #828485;
+}
